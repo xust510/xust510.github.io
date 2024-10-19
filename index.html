@@ -10,12 +10,12 @@
             background-color: #f4f4f4;
             margin: 0;
             padding: 20px;
+            text-align: center;
         }
         header {
             background: #333;
             color: #fff;
             padding: 10px 0;
-            text-align: center;
         }
         section {
             margin: 20px 0;
@@ -24,9 +24,10 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        #ai-bot {
+        footer {
             margin-top: 20px;
-            height: 500px; /* 根据需要调整高度 */
+            font-size: 0.9em;
+            color: #666;
         }
     </style>
 </head>
@@ -35,30 +36,22 @@
 <header>
     <h1>Welcome to My Personal Website</h1>
 </header>
-
+    
+<gradio-app src="https://xust510-test.hf.space" theme_mode="light"></gradio-app>
+    
 <section>
     <h2>About Me</h2>
-    <p>Hello! I'm a student passionate about technology and design. This is my personal space to share my interests.</p >
-</section>
-
-<section>
-    <h2>My Interests</h2>
-    <ul>
-        <li>Web Development</li>
-        <li>Machine Learning</li>
-        <li>Art and Design</li>
-    </ul>
+    <p>Hello! I'm [Your Name]. I am passionate about technology, design, and learning new things. This website is a glimpse into who I am.</p >
 </section>
 
 <section>
     <h2>Contact</h2>
-    <p>Email: xust510@163.com</p >
+    <p>Email: <a href=" ">xust510@163.com</a ></p >
 </section>
 
-<section>
-    <h2>AI Chatbot</h2>
-    <iframe id="ai-bot" src="https://huggingface.co/spaces/xust510/test" width="100%" frameborder="0"></iframe>
-</section>
+<footer>
+    <p>&copy; 2024 Your Name</p >
+</footer>
 
 </body>
 </html>
